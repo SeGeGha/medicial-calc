@@ -3,7 +3,7 @@ const ariBox      = document.querySelector('#ari');
 
 weightInput.addEventListener('input', event => {
     const weight = event.target.value ? parseInt(event.target.value, 10) : 0;
-    const ari    = weight * 40 / 238;
+    const ari    = weight * 40 / 212;
 
     ariBox.textContent = Math.round(ari * 2) / 2;
 });
